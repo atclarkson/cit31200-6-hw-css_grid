@@ -1,0 +1,64 @@
+.malibu {
+    background-color: #63b3f8;
+    grid-area: malibu;
+}
+.amethyst {
+    background-color: #a775cc;
+    grid-area: amethyst;
+}
+.green-pea {
+    background-color: #216d49;
+    grid-area: green-pea;
+}
+.azure {
+    background-color: #2f6aa4;
+    grid-area: azure;
+}
+.gamboge {
+    background-color: #e29813;
+    grid-area: gamboge;
+}
+.forest-green {
+    background-color: #268426;
+    grid-area: forest-green;
+}
+.red {
+    background-color: #fe0000;
+    grid-area: red;
+}
+.turbo {
+    background-color: #ffec00;
+    grid-area: turbo;
+}
+.malachite {
+     background-color: #03f841;
+     grid-area: malachite;
+ }
+.chartreuse {
+    background-color: #98ff02;
+    grid-area: chartreuse;
+}
+.bright-turquoise {
+    background-color: #0df6f0;
+    grid-area: bright-turquoise;
+}
+.purple-heart {
+    background-color: #5c11d0;
+    grid-area: purple-heart;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 375px 220px 325px 50px 180px 145px 220px 375px;
+    grid-template-rows: 200px 550px 315px 375px 375px 775px 475px;
+    grid-template-areas:
+        "malibu malibu malibu malibu malibu malibu malibu malibu"
+        "amethyst amethyst amethyst amethyst amethyst amethyst amethyst amethyst"
+        "green-pea green-pea green-pea green-pea green-pea azure azure azure"
+        "gamboge . forest-green forest-green red red red red"
+        "turbo turbo turbo malachite malachite malachite . chartreuse"
+        "turbo turbo turbo bright-turquoise bright-turquoise bright-turquoise bright-turquoise bright-turquoise"
+        "purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart";
+    grid-gap: 30px;
+}
