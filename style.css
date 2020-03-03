@@ -50,7 +50,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 375px 220px 325px 50px 180px 145px 220px 375px;
+    grid-template-columns: 375fr 220fr 325fr 50fr 180fr 145fr 220fr 375fr;
     grid-template-rows: 200px 550px 315px 375px 375px 775px 475px;
     grid-template-areas:
         "malibu malibu malibu malibu malibu malibu malibu malibu"
@@ -60,5 +60,5 @@
         "turbo turbo turbo malachite malachite malachite . chartreuse"
         "turbo turbo turbo bright-turquoise bright-turquoise bright-turquoise bright-turquoise bright-turquoise"
         "purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart purple-heart";
-    grid-gap: 30px;
+    grid-gap: 15px;
 }
